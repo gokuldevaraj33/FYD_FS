@@ -177,3 +177,74 @@
   padding: 0 10px;
   box-sizing: border-box;
 }
+
+.top-nav {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  font-size: 1.25rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box; /* ensures padding is respected */
+}
+.logo {
+  color: #3575e2;
+  font-weight: 700;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.bg-container {
+  padding-top: 80px; /* space for navbar */
+}
+.nav-right {
+  display: flex;
+  gap: 12px;
+  margin-left: auto; /*  push buttons to the far right */
+}
+
+.nav-btn {
+  background: none;
+  border: 1px solid #3575e2;
+  color: #3575e2;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+  background: #3575e2;
+  color: white;
+}
+
+.signup {
+  background: #43b97f;
+  border: none;
+  color: white;
+}
+
+.signup:hover {
+  background: #369665;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 30px 0;
+  margin-top: 60px;
+  border-top: 1px solid #eee;
+}

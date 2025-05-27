@@ -95,6 +95,15 @@ function UploadForm() {
   };
 
   return (
+     <>
+      {/*  Top Navbar with Login + Sign Up */}
+      <div className="top-nav">
+        <div className="logo">Format Your Document</div>
+        <div className="nav-right">
+          <button className="nav-btn">Login</button>
+          <button className="nav-btn signup">Sign Up</button>
+        </div>
+      </div>
     <div className="bg-container">
       <div className="center-box">
         {/* Loading Spinner Overlay */}
@@ -157,6 +166,11 @@ function UploadForm() {
         )}
       </div>
     </div>
+    <footer className="footer">
+  © {new Date().getFullYear()} FYD — Format Your Document. All rights reserved.
+</footer>
+
+    </>
   );
 }
 
