@@ -1,0 +1,12 @@
+{
+  "Potential unethical: Fred creates an ethical conflict by joining Phaust, risking misuse of Chemitoil's information from his earlier work.": "Remove \"Potential\"; Replace \"an\" with \"a\"",
+  "Phaust gives importance to profit over environmental protection, exploiting Mexico's less stringent regulations like no lining on ponds, causing toxic wastewater to harm resources and communities.": "Remove \"less\"; Replace \"like\" with \"such as\"",
+  "Technical Problems: The lack of safety testing on equipment from a new vendor caused catastrophic results.": "Remove \"a\";",
+  "Using substandard controllers to cut costs due to the reduced budget (20% cut) caused technical problems, as the controller software had defects.": "Remove \"as\"; Replace \"the\" with \"a\"",
+  "Economic Problems: Budget constraints and schedule pressure, to compete with Chemitoil, are the economic problems.": "Remove \"the\"; Replace \"are\" with \"were\"",
+  "Environmental pollution from untreated wastewater is an economic problem.": "< >",
+  "Fred, the chemical engineer, manages designing and approving the automated chemical processing plant for the new product.": "<>",
+  "Wally, Fred’s supervisor, guides Fred throughout the process.": "",
+  "Chuck, Vice president of Engineering division, govern the team and their actions, and manages budget.": "Remove \"and\"; Replace \"govern\" with \"governs\"",
+  "The team was responsible for material choice, testing systems, and quality control before the plant began operating.": ""
+}

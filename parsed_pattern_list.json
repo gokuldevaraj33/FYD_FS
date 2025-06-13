@@ -1,0 +1,38 @@
+[
+  {
+    "pattern": "(?i)\\b(a|an)\\b\\s+\\w+",
+    "description": "Detects 'a' or 'an' followed by a word"
+  },
+  {
+    "pattern": "(?i)^[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*\\s+(?:\\w+\\s+){0,20}\\w+",
+    "description": "Checks if a sentence starts with an acronym"
+  },
+  {
+    "pattern": "(?i)\\b(\\w+)\\s+\\1\\b",
+    "description": "Detects repeated words within a sentence"
+  },
+  {
+    "pattern": "(?i)^(?:(?:(?:in|with|a|an|and|it|is|its|this|these|that)\\s+)|(?:in|with|a|an|and|it|is|its|this|these|that)\\b).*",
+    "description": "Detects sentences starting with prohibited words"
+  },
+  {
+    "pattern": "(?i)^\\s*(?:(?:this|these|in|that|with|a|an|and|it|is|its)\\b|it is)\\s+.*",
+    "description": "Detects sentences starting with prohibited words"
+  },
+  {
+    "pattern": "(?i)\\b(?:one|two|three|four|five|six|seven|eight|nine)\\b",
+    "description": "Detects numbers less than 10 (spelled out)"
+  },
+  {
+    "pattern": "(?i)^\\d",
+    "description": "Detects sentences starting with a number"
+  },
+  {
+    "pattern": "(?i)\\b(Additionally|Many|Some|Better|Best|Ah|May|Almost|Difficult|Might|Believe|Most|Big|Small|Good|Bad|Happy|Sad|Much|High|Low|Often|Can|Could|Should|Easy|Hard|More|Less|Frequently|Slow|Fast|Generally\\s+speaking|Modern|Old|He|She|Heavy|Light|Here|They|Hope|This\\s+is|In|Very|It|We|Large|Small|Major|Minor|With|Long|Short|Strongest|Weakest|There|Finest|Clearly|Meantime|Normal|timely\\s+manner|A\\s+fraction|Unique|Usually|A\\s+lot|Simple|Hard)\\b",
+    "description": "Detects words and phrases NOT to use"
+  },
+  {
+    "pattern": "(?i)\\b(A\\s+bit|A\\s+lot|About|Abstract|Abundant|According\\s+to|Accurately|Aim|Ample|Apparent|Apparently|Appearance|Approach|Approaching|Approximately|Apt|Arguably|Argue|Around|As\\s+long\\s+as|Association|Assume|Assumed|Assuming|At\\s+least|Barely|Basically|Belief|Believe|Best|Big|Borderline|Broad|Broadly|But\\s+for|Can|Cannot\\s+be\\s+ruled\\s+out|Certain|Certainly|Chiefly|Circumstantial|Claim|Clearly|Common|Commonly|Comparatively|Conceivably|Concludes|Conclude|Confirms|Conjectural|Connotes|Considerable|Consistent|Consistent\\s+with|Copious|Correlates|Correlates\\s+with|Could|Could\\s+also|Could\\s+be|Customarily|Customary|Denotes|Despite|Despite\\s+limitations|Doubt|Easily|Dramatically|Drawback|Easy|Efficient|Essentially|Estimate|Estimation|Etcetera|Even\\s+if|Evident|Evidently|Expect|Extensive|Extrapolate|Extrapolation|Fairly|Faint|Favorable|Favorable\\s+trend|Feasible|Feasibly|Few|Fewer|Figurative|Figuratively|Flexible|Foresee|Frequent|Frequently|General|Generally|Generous|Guess|Hardly|Has\\s+a\\s+role|Helps|Helps\\s+maintain|Highly|Hypothetical|Hypothetically|If|In\\s+other\\s+instances|Implication|Implies|Implies\\s+might|In\\s+a\\s+sense|In\\s+general|In\\s+our\\s+hands|In\\s+some\\s+ways|Inclination|Indeed|Indicative|Indicates|Indication|Inference|Infers|Innumerable|In\\s+spite\\s+of\\s+shortcomings|Instead|Intentional|Is\\s+like|Judgement|Kind\\s+of|Large|Largely|Layer\\s+of|Less|Likelihood|Likely|Link|Linked|Literally|Looks|Loosely|Lots|Mainly|Maintains|Marginal|Maximize|May|May\\s+be|Maybe|More\\s+or\\s+less|Most|Mostly|Multiple|Myriad|Naturally|Nearly|Never|Nevertheless|Nonetheless|Normal|Normally|Not\\s+clear|Not\\s+quite|Numerous|Obvious|Obviously|Of\\s+course|Often|Opinion|Optimal|Optimize|Ordinarily|Ordinary|Our\\s+results|Partially|Perception|Perceived|Perfect|Perfectly|Perhaps|Plentiful|Plausible|Posit|Possible|Possibly|Postulate|Postulated|Potential|Potentially|Practically|Practically|Predict|Predominant|Predominantly|Presumably|Presume|Presumed|Presumption|Prevalent|Prevailing|Principally|Probability|Probable|Probably|Propose|Provided|Proposes|Putative|Quite|Rapid|Rarely|Rather|Reasonably|Regular|Regularly|Relatively|Reliable|Reportedly|Represents|Robust|Roughly|Routine|Scarcely|Secure|Seemingly|Seems|Seen\\s+as|Several|Severe|Shortcomings|Should|Signifies|Significant|Significantly|Sizable|Slightly|Slow|Some|Somehow|Somewhat|Somewhat\\s+somewhat|Someway|Speculate|Speculated|Speculation|Speculative|Standard|Statistical\\s+trend|Still|Strongly|Strongly\\s+suggests|Substantial|Substantially|Sufficient|Suggest|Suggestion|Suppose|Supposed|Supposition|Symbolic|Tend|Tendency|Tending|Tentative|Tentatively|That\\s+being\\s+said|The\\s+best|The\\s+fact\\s+that|The\\s+opposite\\s+is\\s+also\\s+possible|Theoretical|Theoretically|Though|To\\s+my\\s+knowledge|Traditional|Trend|Trending|Typical|Typically|Ultimately|Uncertain|Unlikely|Usual|Usually|Various|Very\\s+closely|Very\\s+likely|Virtually|Viewed\\s+in\\s+this\\s+way|We\\s+propose|Weakly|Wide|Widespread|With\\s+all\\s+due\\s+respect|Would\\s+appear|Yet)\\b",
+    "description": "Detects 'weasel words'"
+  }
+]
