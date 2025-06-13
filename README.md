@@ -2,6 +2,37 @@
 
 A Python tool that adds precise sentence-level comments to Word documents using the Google Gemini API.
 
+## Project Structure
+
+```
+FYD_FS/
+├── backend/               # Python scripts and data files
+│   ├── sentence_commenter.py
+│   ├── gemini_api_model.py
+│   ├── extract_answers.py
+│   ├── parsed_pattern_list.json
+│   ├── sentence_analysis_dict.json
+│   └── sentences.pkl
+├── notebooks/            # Jupyter notebooks
+│   ├── main.ipynb
+│   ├── cmt_testing.ipynb
+│   ├── commenting.ipynb
+│   ├── FYD_Gokul.ipynb
+│   └── gemini_api_model.ipynb
+├── input/               # Input documents
+│   ├── input.docx
+│   ├── input1.docx
+│   ├── input2.docx
+│   └── input_no_que.docx
+├── output/             # Generated output documents
+│   └── output.docx
+├── rules/             # Writing rules and patterns
+│   └── Academic Research Writing Dos and Don.docx
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
 ## Features
 
 - Processes Word documents (.docx) to add comments at the sentence level
@@ -23,8 +54,8 @@ A Python tool that adds precise sentence-level comments to Word documents using 
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd [repo-name]
+git clone https://github.com/gokuldevaraj33/FYD_FS.git
+cd FYD_FS
 ```
 
 2. Install required packages:
@@ -41,17 +72,10 @@ pip install -r requirements.txt
 1. Place your input document in the `input` folder
 2. Run the script:
 ```bash
-python sentence_commenter.py
+python backend/sentence_commenter.py
 ```
 
-3. The processed document will be saved as `output.docx`
-
-## Project Structure
-
-- `sentence_commenter.py`: Main script for adding comments
-- `input/`: Directory for input documents
-- `output.docx`: Generated output document
-- `sentences.pkl`: Pickle file containing sentences to comment on
+3. The processed document will be saved in the `output` folder
 
 ## License
 

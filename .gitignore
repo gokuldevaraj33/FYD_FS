@@ -20,6 +20,10 @@ wheels/
 .installed.cfg
 *.egg
 
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
 # Virtual Environment
 venv/
 env/
@@ -31,9 +35,19 @@ ENV/
 *.swp
 *.swo
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pkl
+*.json
+output/
+!backend/parsed_pattern_list.json
+!backend/sentence_analysis_dict.json
+
 # Project specific
 docx_temp/
 *.docx
-*.pkl
 output.docx
 temp.docx 
